@@ -1,8 +1,8 @@
 # mididings_appliance
 A mididings appliance running on a minimal Debian install on an AMD Thin Client Hardware.
 
-My use case is to use mididings to decode Line 6 PODxt and route these to a Midi Captain foot
-controller running Midi Captain MAX firmware.
+My use case is to use mididings to initiate and decode Line 6 PODxt Patch Dumps and route selected CCs to a Midi Captain foot
+controller running Midi Captain MAX firmware. The Midi Captain LEDs follow the PODxt when the Patch is changed.
 
 The appliance.py file is a very rough working version. It's not tidy at all but with debug bits left in.
 It might be a useful framework for other mididings applications.

@@ -12,6 +12,7 @@ I use different midings scenes to setup the routing and decoding depending on ho
 
 Re Hardware: The PODxt and the Midi Captain midi can both connect via USB or 5 pin DIN. I prefer to use 5 PIN din and so in my case I have added a USB Midi interface (CME H4MIDI).
 Its not really necessary but one of my PODxt's has a faulty USB port.
+
 The USB setup is neat because it powers the MIDI Captain footswitch.
 
 The applianceDebug.py file is a very rough working version. It's not tidy at all and has debug bits left in.

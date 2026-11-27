@@ -1,0 +1,48 @@
+## Mididings Appliance 
+
+#Hardware
+Take one Linux Fanless PC Lenovo M625q AMD E2-9000e 8GB RAM 128Gb NVMe SSD WiFi (cost £55)
+https://www.ebay.co.uk/itm/168581331923
+
+# Debian minimal install
+Debian 13 system based on the debian-13.6.0-amd64-netinst iso
+(?  Xfce + )
+
+
+apt list --installed
+# Mididings Dependancies:
+sudo apt upgrade
+sudo apt install libasound2-dev
+##sudo apt install python3-venv
+##sudo apt install python3-pip
+sudo apt install libjack-jackd2-dev
+sudo apt install libboost-all-dev
+sudo apt install pkg-config
+sudo apt install build-essential
+sudo apt install cmake
+
+# rptmidi
+wget https://github.com/davidmoreno/rtpmidid/releases/download/v26.01/rtpmidid-debian-trixie-amd64-26.01.deb
+sudo apt install ./rtpmidid-debian-trixie-amd64-26.01.deb
+# Check its installed
+sudo apt install rtpmidid
+
+# Alsa Midi
+sudo apt install alsa-utils
+
+
+# Python Environment using UV - My preference
+https://docs.astral.sh/uv/getting-started/installation/#installation-methods
+
+wget -qO- https://astral.sh/uv/install.sh | sh
+# Logout and in again
+
+uv init mididings
+cd mididings
+uv add nicegui
+uv add mididings
+
+
+
+# rtpMIDI for Windows
+https://www.tobias-erichsen.de/software/rtpmidi.html

@@ -4,7 +4,7 @@ A mididings appliance running on a minimal Debian install on an AMD Thin Client 
 My use case is to use mididings to initiate and decode Line 6 PODxt Patch Dumps and route selected CCs to a Midi Captain foot
 controller running Midi Captain MAX firmware. The Midi Captain LEDs follow the PODxt when the Patch is changed.
 
-The appliance.py file is a very rough working version. It's not tidy at all but with debug bits left in.
+The appliance.py file is a very rough working version. It's not tidy at all and has debug bits left in.
 It might be a useful framework for other mididings applications.
 
 I plan to add detailed steps for setting up the thin client, installing mididings under uv and details of the hardware.
@@ -19,7 +19,9 @@ Stefets helped me get mididings working (https://github.com/mididings/mididings/
 
 Google helped me untangle my rubbish Python code :)
 
+
 I have a GUI using NiceGUI to control mididings scenes and also switch Midi Captain Pages.
 
-....
-<img width="529" height="799" alt="NiceDings" src="https://github.com/user-attachments/assets/22cd2a3c-8af1-4eb2-aa19-f33d9356f888" />
+
+<img width="396" height="769" alt="NiceDings" src="https://github.com/user-attachments/assets/0e8f13d7-4cb5-4345-be66-05d4d342454b" />
+

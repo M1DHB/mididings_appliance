@@ -5,10 +5,13 @@ My use case is to use mididings to initiate and decode Line 6 PODxt Patch Dumps 
 controller running [Midi Captain MAX](https://github.com/MC-Music-Workshop/midi-captain-max) firmware.
 The Midi Captain follows the PODxt and [pod-ui](https://github.com/arteme/pod-ui) when the Patch is changed.
 
-I decided to use a dedicated headless linux box because I'm using windows for my setup and mididings is only available on linux.
+I decided to use a dedicated headless linux box because I'm using Windows for my setup and mididings is only available on linux.
 I run [pod-ui](https://github.com/arteme/pod-ui) on Windows 11 (my DAW and everything else is on W11) and connect to the Linux box with rtp-midi over my LAN.
 
 I use different midings scenes to setup the routing and decoding depending on how things are connected. (The PODxt output on USB echoes CC and PC messages but not on DIN)
+
+Re Hardware: The PODxt and the Midi Captain midi can both connect via USB or 5 pin DIN. I prefer to use 5 PIN din and so in my case I have added a USB Midi interface (CME H4MIDI).
+Its not really necessary but one of my PODxt's has a faulty USB port.
 
 The applianceDebug.py file is a very rough working version. It's not tidy at all and has debug bits left in.
 It might be a useful framework for other mididings applications.

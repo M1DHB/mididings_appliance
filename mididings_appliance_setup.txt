@@ -6,10 +6,7 @@ https://www.ebay.co.uk/itm/168581331923
 
 # Debian minimal install
 Debian 13 system based on the debian-13.6.0-amd64-netinst iso
-(?  Xfce + )
 
-
-apt list --installed
 # Mididings Dependancies:
 sudo apt upgrade
 sudo apt install libasound2-dev
@@ -37,12 +34,13 @@ https://docs.astral.sh/uv/getting-started/installation/#installation-methods
 wget -qO- https://astral.sh/uv/install.sh | sh
 # Logout and in again
 
-uv init mididings
-cd mididings
+uv init midid_app
+cd midid_app
 uv add nicegui
 uv add mididings
 
-
+# copy appliance.py file to midid_app directory and use uv run
+uv run appliance.py
 
 # rtpMIDI for Windows
 https://www.tobias-erichsen.de/software/rtpmidi.html

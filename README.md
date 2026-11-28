@@ -15,6 +15,8 @@ Its not really necessary but one of my PODxt's has a faulty USB port.
 
 The USB setup is neat because it powers the MIDI Captain footswitch.
 
+And of course [Midi Captain MAX](https://github.com/MC-Music-Workshop/midi-captain-max) firmware is awsome.
+
 [Detailed steps for setting up the thin client, installing mididings under uv and details of the hardware.](https://github.com/M1DHB/mididings_appliance/blob/main/mididings_appliance_setup.txt)
 
 Clean [appliance.py](https://github.com/M1DHB/mididings_appliance/blob/main/appliance.py) code.

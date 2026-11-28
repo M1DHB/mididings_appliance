@@ -1,7 +1,7 @@
 # mididings_appliance
 A mididings appliance running on a minimal Debian install on AMD Thin Client Hardware.
 
-My use case is to use mididings to initiate and decode Line 6 PODxt Patch Dumps and route selected CCs to a Midi Captain foot
+My use case is to use mididings to initiate and decode Line 6 PODxt Patch Dumps and route selected CCs to a [Paint Audio](https://paintaudio.com/) Midi Captain foot
 controller running [Midi Captain MAX](https://github.com/MC-Music-Workshop/midi-captain-max) firmware.
 The Midi Captain follows the PODxt and [pod-ui](https://github.com/arteme/pod-ui) when the Patch is changed.
 

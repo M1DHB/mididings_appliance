@@ -15,10 +15,13 @@ Its not really necessary but one of my PODxt's has a faulty USB port.
 
 The USB setup is neat because it powers the MIDI Captain footswitch.
 
-I will upload a clean appliance.py script soon. Meanwhile the [applianceDebug.py](https://github.com/M1DHB/mididings_appliance/blob/main/applianceDebug.py) file is a very rough working version. It's not tidy at all and has debug bits left in.
-It might be a useful framework for other mididings applications.
+
 
 [Detailed steps for setting up the thin client, installing mididings under uv and details of the hardware.](https://github.com/M1DHB/mididings_appliance/blob/main/mididings_appliance_setup.txt)
+
+Clean [appliance.py](https://github.com/M1DHB/mididings_appliance/blob/main/appliance.py) code.
+The [applianceDebug.py](https://github.com/M1DHB/mididings_appliance/blob/main/applianceDebug.py) file is a very rough working version. It's not tidy at all and has debug bits left in.
+It might be a useful framework for other mididings applications.
 
 # I had lots of assistance:
 
